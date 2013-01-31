@@ -14,22 +14,24 @@
     <%= csrf_meta_tag %>
   </head>
   <body>
-    <div class="container">
-      <div id="top">
-        <div id="hd">
-          <h1>System Metrics</h1>
-          <%= render "menu" %>
+    <div class="system_metrics"> 
+      <div class="container">
+        <div id="top">
+          <div id="hd">
+            <h1>System Metrics</h1>
+            <%= render "menu" %>
+          </div>
+        </div>
+        <div id="bd">
+          <%= render "title_bar" %>
+          <div id="content">
+            <%= yield %>
+          </div>
         </div>
       </div>
-      <div id="bd">
-        <%= render "title_bar" %>
-        <div id="content">
-          <%= yield %>
-        </div>
+      <div id="ft">
+        <span>Developed by <a href="http://www.nearinfinity.com">Near Infinity</a></span>
       </div>
-    </div>
-    <div id="ft">
-      <span>Developed by <a href="http://www.nearinfinity.com">Near Infinity</a></span>
     </div>
   </body>
 </html>

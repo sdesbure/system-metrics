@@ -1,4 +1,4 @@
-body {
+.system_metrics body {
   color: #555555;
   font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
   font-size: 75%;
@@ -8,61 +8,61 @@ body {
   width: 100%;
 }
 
-a:hover {
+.system_metrics a:hover {
   color: #0099FF;
 }
 
-a:visited {
+.system_metrics a:visited {
   color: #004C99;
 }
 
-a {
+.system_metrics a {
   color: #0066CC;
   text-decoration: underline;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.system_metrics h1, h2, h3, h4, h5, h6 {
   color: #555555;
   font-weight: bold;
 }
 
-#container {
+.system_metrics #container {
   height: 100%;
   margin-bottom: -46px;
   min-height: 100%;
 }
 
-#top {
+.system_metrics #top {
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 2;
 }
 
-#bd {
+.system_metrics #bd {
   padding-bottom: 46px;
   position: relative;
   top: 40px;
   background-color: #FAFCFF;
 }
 
-#content {
+.system_metrics #content {
   padding: 20px;
 }
 
-tr {
+.system_metrics tr {
   height: 45px;
 }
 
-thead tr {
+.system_metrics thead tr {
   color: #667495;
 }
 
-div.clear {
+.system_metrics div.clear {
   clear: both;
 }
 
-#hd {
+.system_metrics #hd {
   clear: both;
   top: 0;
   width: 100%;
@@ -73,7 +73,7 @@ div.clear {
   border-top: 2px solid #F8BC59;
 }
 
-#hd h1 {
+.system_metrics #hd h1 {
   color: #F8BC59;
   font-size: 1.8em;
   position: absolute;
@@ -82,7 +82,7 @@ div.clear {
   text-shadow: 0 1px 0 black;
 }
 
-#hd ul {
+.system_metrics #hd ul {
   border: 0 none;
   clear: both;
   margin: 0 1.622%;
@@ -91,7 +91,7 @@ div.clear {
   text-shadow: 0 1px 0 black;
 }
 
-#hd ul li {
+.system_metrics #hd ul li {
   color: #C4D9FF;
   cursor: pointer;
   margin: 6px 0.5em 0;
@@ -107,7 +107,7 @@ div.clear {
   -moz-box-orient: vertical;
 }
 
-#hd ul li a {
+.system_metrics #hd ul li a {
   color: inherit;
   cursor: inherit;
   line-height: 28px;
@@ -115,18 +115,18 @@ div.clear {
   text-decoration: inherit;
 }
 
-#hd ul li.active {
+.system_metrics #hd ul li.active {
   background-color: #323C46;
   color: #F6A828;
   -moz-border-radius: 25px 25px 25px 25px;
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5) inset, 0 -1px 0 rgba(255, 255, 255, 0.2) inset;
 }
 
-#hd ul li:hover {
+.system_metrics #hd ul li:hover {
   color: #EEE;
 }
 
-#title-bar {
+.system_metrics #title-bar {
   background: #EFEFEF;
   border-bottom: 1px solid #EDEDED;
   color: #5E6469;
@@ -141,18 +141,18 @@ div.clear {
   box-shadow: 0 1px 2px #AAAAAA;
 }
 
-#title-bar h2 {
+.system_metrics #title-bar h2 {
   font-size: 2.6em;
   font-weight: bold;
   margin: 12px 0 10px;
 }
 
-#title-bar h4 {
+.system_metrics #title-bar h4 {
   margin-bottom: 0.25em;
   font-weight: normal;
 }
 
-#ft {
+.system_metrics #ft {
   background-color: #FAD08A;
   border-top: 1px solid #F8BC59;
   color: #B17107;
@@ -167,22 +167,22 @@ div.clear {
   -moz-box-shadow: 0 1px 0 #FCE3BB inset;
 }
 
-#menu-bar {
+.system_metrics #menu-bar {
   margin-bottom: 10px;
 }
 
-#menu-bar form {
+.system_metrics #menu-bar form {
   float: right;
 }
 
-#metric-details {
+.system_metrics #metric-details {
   border-right: 1px solid #EFEFEF;
   float: left;
   padding-right: 20px;
   width: 37%;
 }
 
-#metric-details h2 {
+.system_metrics #metric-details h2 {
   font-size: 500%;
   line-height: normal;
   margin-bottom: 20px;
@@ -190,17 +190,17 @@ div.clear {
   text-align: center;
 }
 
-#metric-children {
+.system_metrics #metric-children {
   float: right;
   width: 60%;
 }
 
-div.payload {
+.system_metrics div.payload {
   border-left: 1px solid #EFEFEF;
   padding-left: 10px;
 }
 
-div.portlet {
+.system_metrics div.portlet {
   position: relative;
   float: left;
   width: 45em;
@@ -212,12 +212,12 @@ div.portlet {
   box-shadow: 1px 1px 1px #AAA;
 }
 
-.hbar {
+.system_metrics .hbar {
   display: block;
   background: #0A0;
   height: 10px;
 }
 
-.hbar.slow {
+.system_metrics .hbar.slow {
   background: #A00;
 }
