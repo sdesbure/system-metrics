@@ -2,7 +2,8 @@ class CreateMetricsTable < ActiveRecord::Migration
   def self.up
     create_table :system_metrics, :force => true do |t|
       t.column :name, :string, :null => false
-      t.column :started_at, :datetime, :null => false
+      t.column :time, :datetime, :null => false
+      t.column :end, :datetime, :null => false
       t.column :transaction_id, :string
       t.column :payload, :text
       t.column :duration, :float, :null => false
