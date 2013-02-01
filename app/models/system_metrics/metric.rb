@@ -1,6 +1,6 @@
 module SystemMetrics
   class Metric < ActiveRecord::Base
-    attr_accessible :name, :payload, :time, :transaction_id, :end, :duration, :action, :category, :children
+    attr_accessible :name, :payload, :time, :transaction_id, :end, :duration, :action, :category, :children, :exclusive_duration
 
     set_table_name 'system_metrics'
     has_many :children, :class_name => self.name, :foreign_key => :parent_id
