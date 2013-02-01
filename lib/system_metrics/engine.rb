@@ -26,11 +26,17 @@ module SystemMetrics
     private
 
       def process_event(event)
+        puts "******************************"
+        puts event.inspect
+        puts "******************************"
         instrument = smc.instruments.find { |instrument| instrument.handles?(event) }
 
         if instrument.present?
           unless instrument.ignore?(event)
             instrument.prepare(event)
+        puts "------------------------------"
+        puts event.inspect
+        puts "------------------------------"
             collector.collect_event(event)
           end
         else
